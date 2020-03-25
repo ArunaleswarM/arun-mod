@@ -1,0 +1,21 @@
+button{
+font-size: 16px;
+
+background-color: #0d11ec;
+color: rgb(255, 255, 255);
+font-weight: bold;
+cursor: pointer;
+width: 20%;
+border-radius: 5px;
+padding: 10px 0;
+border: 0;
+outline:none;
+transition: .4s;
+
+}
+button:hover{
+
+background-color: white;
+color: #0d11ec;
+border:2px solid  #0d11ec;
+}
