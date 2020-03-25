@@ -40,7 +40,7 @@
 
 
 
- <div class="container">
+ <!-- <div class="container">
   <h2>Mood Of the Day</h2>
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" >Home</a></li>
@@ -53,5 +53,21 @@
   </ul>
 
 
-  </div>
+  </div> -->
 
+<mat-tab-group>
+  <mat-tab label="DB Setup"  routerLink="/dbsetup" (click)="dbsetup()">
+  <app-dbsetup></app-dbsetup>
+  </mat-tab>
+  <mat-tab label="Device List">
+  <app-devicelist></app-devicelist>
+  </mat-tab>
+  <mat-tab label="Quotes">
+    <app-quotes></app-quotes>
+</mat-tab>
+<mat-tab label="Report">
+  <app-report></app-report>
+</mat-tab>
+  
+</mat-tab-group>
+<router-outlet></router-outlet>

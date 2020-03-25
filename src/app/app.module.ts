@@ -11,6 +11,11 @@ import { DbsetupComponent } from './dbsetup/dbsetup.component';
 import { DevicelistComponent } from './devicelist/devicelist.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { ReportComponent } from './report/report.component';
+import { MatInput, MatInputModule } from '@angular/material/input';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { MatTabsModule } from '@angular/material/tabs';
+
 
 
 
@@ -38,8 +43,10 @@ import { ReportComponent } from './report/report.component';
     homeRoutingModule,
     LoginRoutingModule,
     FormsModule,
-  
-
+    MatInputModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+  MatTabsModule,
 
 
 
